@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7dcc1a1d-6597-43a6-ad4a-f511a48b08f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelevisionApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TelevisionApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TelevisionAppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2bz7RQ85JM41HtBUEYvSetnM6fz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;JUnit.TelevisionAppTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TelevisionAppTest.testThatTelevisionCanBeTurnedOff.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TelevisionAppTest.testThatTelevisionCanBeTurnedOn.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TelevisionAppTest.testThatTelevisionIsOn.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TelevisionAppTest.testThatTelevisionVolumeCanBeIncreased.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.TelevisionAppTest.testThatTelevisionVolumeCanBeDecreased">
+    <configuration name="TelevisionAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelevisionApp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TelevisionAppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelevisionAppTest.testThatTelevisionCanBeTurnedOff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelevisionApp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TelevisionAppTest" />
+      <option name="METHOD_NAME" value="testThatTelevisionCanBeTurnedOff" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelevisionAppTest.testThatTelevisionCanBeTurnedOn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelevisionApp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TelevisionAppTest" />
+      <option name="METHOD_NAME" value="testThatTelevisionCanBeTurnedOn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelevisionAppTest.testThatTelevisionVolumeCanBeDecreased" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelevisionApp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TelevisionAppTest" />
+      <option name="METHOD_NAME" value="testThatTelevisionVolumeCanBeDecreased" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelevisionAppTest.testThatTelevisionVolumeCanBeIncreased" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelevisionApp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TelevisionAppTest" />
+      <option name="METHOD_NAME" value="testThatTelevisionVolumeCanBeIncreased" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TelevisionAppTest.testThatTelevisionVolumeCanBeDecreased" />
+        <item itemvalue="JUnit.TelevisionAppTest.testThatTelevisionCanBeTurnedOff" />
+        <item itemvalue="JUnit.TelevisionAppTest.testThatTelevisionCanBeTurnedOn" />
+        <item itemvalue="JUnit.TelevisionAppTest.testThatTelevisionVolumeCanBeIncreased" />
+        <item itemvalue="JUnit.TelevisionAppTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-4caba194b151-23eed401" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7dcc1a1d-6597-43a6-ad4a-f511a48b08f8" name="Changes" comment="" />
+      <created>1707206045135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707206045135</updated>
+      <workItem from="1707206046157" duration="549000" />
+      <workItem from="1707206650458" duration="150000" />
+      <workItem from="1707274222021" duration="9406000" />
+      <workItem from="1707285590251" duration="788000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
