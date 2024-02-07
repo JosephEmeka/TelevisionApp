@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dcc1a1d-6597-43a6-ad4a-f511a48b08f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TelevisionApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TelevisionApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/TelevisionAppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TelevisionApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TelevisionApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TelevisionAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TelevisionAppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,41 +35,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;JUnit.TelevisionAppTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TelevisionAppTest.testThatTelevisionCanBeTurnedOff.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TelevisionAppTest.testThatTelevisionCanBeTurnedOn.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TelevisionAppTest.testThatTelevisionIsOn.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TelevisionAppTest.testThatTelevisionVolumeCanBeIncreased.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.TelevisionAppTest.executor": "Run",
+    "JUnit.TelevisionAppTest.testThatTelevisionCanBeTurnedOff.executor": "Run",
+    "JUnit.TelevisionAppTest.testThatTelevisionCanBeTurnedOn.executor": "Run",
+    "JUnit.TelevisionAppTest.testThatTelevisionChannelCanBeChanged.executor": "Run",
+    "JUnit.TelevisionAppTest.testThatTelevisionIsOn.executor": "Run",
+    "JUnit.TelevisionAppTest.testThatTelevisionVolumeCanBeDecreased.executor": "Run",
+    "JUnit.TelevisionAppTest.testThatTelevisionVolumeCanBeIncreased.executor": "Run",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.TelevisionAppTest.testThatTelevisionVolumeCanBeDecreased">
-    <configuration name="TelevisionAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TelevisionApp" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TelevisionAppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="JUnit.TelevisionAppTest.testThatTelevisionChannelCanBeChanged">
     <configuration name="TelevisionAppTest.testThatTelevisionCanBeTurnedOff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TelevisionApp" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,6 +78,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TelevisionAppTest" />
       <option name="METHOD_NAME" value="testThatTelevisionCanBeTurnedOn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelevisionAppTest.testThatTelevisionChannelCanBeChanged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TelevisionApp" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TelevisionAppTest" />
+      <option name="METHOD_NAME" value="testThatTelevisionChannelCanBeChanged" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TelevisionAppTest.testThatTelevisionChannelCanBeChanged" />
         <item itemvalue="JUnit.TelevisionAppTest.testThatTelevisionVolumeCanBeDecreased" />
         <item itemvalue="JUnit.TelevisionAppTest.testThatTelevisionCanBeTurnedOff" />
         <item itemvalue="JUnit.TelevisionAppTest.testThatTelevisionCanBeTurnedOn" />
         <item itemvalue="JUnit.TelevisionAppTest.testThatTelevisionVolumeCanBeIncreased" />
-        <item itemvalue="JUnit.TelevisionAppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +141,7 @@
       <workItem from="1707206046157" duration="549000" />
       <workItem from="1707206650458" duration="150000" />
       <workItem from="1707274222021" duration="9406000" />
-      <workItem from="1707285590251" duration="788000" />
+      <workItem from="1707285590251" duration="2650000" />
     </task>
     <servers />
   </component>

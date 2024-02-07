@@ -23,7 +23,7 @@ public class TelevisionApp {
     }
 
 
-    public void increaseTelevisonVolume() {
+    public void increaseTelevisionVolume() {
         if (isOn) {
             if (volume >= 0 && volume < 100)
                 volume += 1;
@@ -31,7 +31,7 @@ public class TelevisionApp {
             else volume = 0;
     }
 
-    public void decreaseTelevisonVolume() {
+    public void decreaseTelevisionVolume() {
         if (isOn){
             if (volume > 0 && volume <= 100) volume -= 1;
         }
@@ -54,5 +54,22 @@ public class TelevisionApp {
             this.channel = channel;
         }
 
+    public void positiveTelevisionChannelChange() {
+        if (isOn) {
+            if (channel >= 0 && channel < 50) {
+                channel += 1;
+            }
+            if (channel == 50) {channel = 0;}
+        }
+        else channel = 0;
+    }
+
+    public void negativeTelevisionChannelChange() {
+        if (isOn){
+            if (channel > 0 && channel <= 50) {channel -= 1;}
+            if (channel == 0) {channel = 50;}
+        }
+        else channel = 0;
+    }
 
 }

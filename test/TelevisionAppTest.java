@@ -36,8 +36,18 @@ public class TelevisionAppTest {
         @Test
         public void testThatTelevisionChannelCanBeChanged(){
                 myTelevisionApp.turnPowerOn();
-
-
+                myTelevisionApp.setChannel(45);
+                myTelevisionApp.positiveTelevisionChannelChange();
+                assertEquals(46, myTelevisionApp.getChannel());
+                myTelevisionApp.setChannel(50);
+                myTelevisionApp.positiveTelevisionChannelChange();
+                assertEquals(0, myTelevisionApp.getChannel());
+                myTelevisionApp.setChannel(30);
+                myTelevisionApp.negativeTelevisionChannelChange();
+                assertEquals(29, myTelevisionApp.getChannel());
+                myTelevisionApp.setChannel(0);
+                myTelevisionApp.negativeTelevisionChannelChange();
+                assertEquals(50, myTelevisionApp.getChannel());
 
         }
 
@@ -45,10 +55,10 @@ public class TelevisionAppTest {
         @Test
         public void testThatTelevisionVolumeCanBeIncreased(){
                 myTelevisionApp.turnPowerOn();
-                myTelevisionApp.increaseTelevisonVolume();
+                myTelevisionApp.increaseTelevisionVolume();
                 assertEquals(1, myTelevisionApp.getVolume());
                 myTelevisionApp.setVolume(6);
-                myTelevisionApp.increaseTelevisonVolume();
+                myTelevisionApp.increaseTelevisionVolume();
                 assertEquals(7, myTelevisionApp.getVolume());
         }
 
@@ -56,10 +66,10 @@ public class TelevisionAppTest {
         @Test
         public void testThatTelevisionVolumeCanBeDecreased(){
                 myTelevisionApp.turnPowerOn();
-                myTelevisionApp.decreaseTelevisonVolume();
+                myTelevisionApp.decreaseTelevisionVolume();
                 assertEquals(0, myTelevisionApp.getVolume());
                 myTelevisionApp.setVolume(6);
-                myTelevisionApp.decreaseTelevisonVolume();
+                myTelevisionApp.decreaseTelevisionVolume();
                 assertEquals(5, myTelevisionApp.getVolume());
 
         }
